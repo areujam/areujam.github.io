@@ -43,7 +43,8 @@ Education
 * **Focus Areas:** Developing machine learning models for Computational Biology, including genomic-based aging prediction.
 * **Collaboration:** Actively working with datasets from the **Human Phenotype Project** and the **Emirati Genome Project**.
 * **Thesis Direction:** Currently exploring Master's Thesis topics with a focus on **Telomere research** and longitudinal phenotypic data.
-* **Selected Coursework:** * Machine Learning & Deep Learning
+* **Selected Coursework:** 
+    * Machine Learning & Deep Learning
     * Big Data Processing
     * Parallel and Distributed Machine Learning Systems
     * Probabilistic and Statistical Inference
