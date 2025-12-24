@@ -37,8 +37,8 @@ For those users that need more advanced functionality, the template also support
 Education
 ======
 
-**Master of Science in Machine Learning** *Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)* | 2025 – Present
-
+**Master of Science in Machine Learning** 
+*Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)* | 2025 – Present
 * **Research:** Member of the [Computational Biology & Cancer Regulatory Genomics Lab](https://khanlab.bio/) under the supervision of **Professor Aziz Khan**.
 * **Focus Areas:** Developing machine learning models for Computational Biology, including genomic-based aging prediction.
 * **Collaboration:** Actively working with datasets from the **Human Phenotype Project** and the **Emirati Genome Project**.
@@ -49,7 +49,8 @@ Education
     * Probabilistic and Statistical Inference
     * Medical Imaging
 
-**Bachelor of Science in Bioengineering** *New York University Abu Dhabi (NYUAD)* | Class of 2025
+**Bachelor of Science in Bioengineering** 
+*New York University Abu Dhabi (NYUAD)* | Class of 2025
 * **Capstone Thesis:** "Numerical Study and Optimization of Micropillar-Based Glaucoma Drainage Devices." Developed a solution for malfunctioning Ahmed Glaucoma Valves in collaboration with *New World Medical*.
 * **Research & Presentation:** Successfully presented outcomes at the **IMECE 2025** (International Mechanical Engineering Congress & Exposition) under the supervision of Prof. Rafael Song and Prof. Iskender Sahin.
 * **Honors & Leadership:** Received the **"Outstanding Leadership Award"** for service as Engineering Representative and Global Career Peer.
