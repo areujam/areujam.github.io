@@ -1,152 +1,178 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Aruzhan Zhamalbek",
+    "email": "aruzhan.zhamalbek@mbzuai.ac.ae",
+    "phone": "+971 56 539 5227",
+    "website": "https://areujam.github.io",
+    "summary": "Machine Learning Master's student at MBZUAI. Building scalable distributed ML pipelines, HPC infrastructure, and reproducible training workflows.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Abu Dhabi",
+      "countryCode": "AE",
+      "region": "UAE"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "network": "GitHub",
+        "username": "areujam",
+        "url": "https://github.com/areujam"
       },
       {
         "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "username": "0009-0004-1683-6192",
+        "url": "https://orcid.org/0009-0004-1683-6192"
       },
       {
-        "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "network": "Kaggle",
+        "username": "aruzhanzhamalbek",
+        "url": "https://www.kaggle.com/aruzhanzhamalbek"
       }
     ]
   },
-  "work": [],
-  "education": [
+  "work": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "company": "Computational Biology & Cancer Regulatory Genomics (CBCRG)",
+      "position": "Machine Learning Engineer",
+      "website": "https://khanlab.bio/",
+      "startDate": "2025-08-01",
+      "endDate": "",
+      "summary": "Masdar City, UAE",
+      "highlights": [
+        "Engineered reproducible ML data pipelines on HPC infrastructure using Nextflow, processing TB-scale heterogeneous ENCODE datasets.",
+        "Built experiment–control pair matching system enabling data lineage, traceability, and reproducibility.",
+        "Performed high-dimensional signal extraction and anomaly detection on noisy large-scale datasets."
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
+      "company": "Amandine's Lab",
+      "position": "Bioinformatician and Genomics Research Fellow",
+      "website": "",
+      "startDate": "2025-05-01",
+      "endDate": "2025-08-01",
+      "summary": "Abu Dhabi, UAE",
+      "highlights": [
+        "Optimized end-to-end data processing pipelines (FastQC, Trimmomatic, BWA, GATK), increasing throughput by 10% across 200+ datasets.",
+        "Applied unsupervised learning (PCA, clustering, diversity metrics) to uncover latent structure in large datasets."
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "company": "NYU Tandon School of Engineering",
+      "position": "Bioengineering Intern",
+      "website": "",
+      "startDate": "2024-06-01",
+      "endDate": "2024-08-01",
+      "summary": "New York, USA",
+      "highlights": [
+        "Analyzed high-volume sequencing datasets using Python and R pipelines; delivered findings as one of the top 7 selected projects at the UGSRP Symposium.",
+        "Developed statistical signal-to-noise models to improve confidence in automated validation under noisy data conditions."
+      ]
+    },
+    {
+      "company": "National Center of Biotechnology",
+      "position": "Biomedical Engineering Intern",
+      "website": "",
+      "startDate": "2023-06-01",
+      "endDate": "2023-08-01",
+      "summary": "Astana, Kazakhstan",
+      "highlights": [
+        "Improved operational throughput by 25% through process automation.",
+        "Conducted exploratory data analysis and dashboarding for AI-driven diagnostic initiatives."
+      ]
     }
   ],
-  "skills": [],
+  "education": [
+    {
+      "institution": "Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)",
+      "area": "Machine Learning",
+      "studyType": "Master of Science",
+      "startDate": "2025-08-01",
+      "endDate": "",
+      "gpa": "3.7",
+      "courses": [
+        "Parallel & Distributed ML",
+        "Big Data Processing",
+        "Deep Learning",
+        "Medical Imaging",
+        "Probabilistic & Statistical Inference",
+        "Mathematics for AI"
+      ]
+    },
+    {
+      "institution": "New York University Abu Dhabi",
+      "area": "Bioengineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2021-09-01",
+      "endDate": "2025-05-01",
+      "gpa": "3.5",
+      "courses": [
+        "Data Structures & Algorithms",
+        "Cyberwarfare",
+        "Numerical Methods",
+        "Probability & Statistics",
+        "ODEs & PDEs"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": ["Python", "R", "Bash", "C++", "MATLAB"]
+    },
+    {
+      "name": "ML / Frameworks",
+      "keywords": ["PyTorch", "scikit-learn", "pandas", "NumPy", "Hugging Face Transformers"]
+    },
+    {
+      "name": "Distributed Systems",
+      "keywords": ["SLURM/HPC", "PyTorch DDP", "Pipeline Parallelism", "Data Parallelism", "Nextflow"]
+    },
+    {
+      "name": "MLOps & Tools",
+      "keywords": ["Docker", "Singularity", "Git", "version-controlled reproducible pipelines"]
+    }
+  ],
   "languages": [],
-  "interests": [],
+  "interests": [
+    {"name": "Federated Learning"},
+    {"name": "Vision Transformers"},
+    {"name": "Distributed Training"},
+    {"name": "Large-scale Data Pipelines"},
+    {"name": "Computational Biology"}
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Numerical Study of Micropillar Based Glaucoma Drainage Devices",
+      "publisher": "ASME IMECE 2025",
+      "releaseDate": "2026-02-01",
+      "website": "https://doi.org/10.1115/IMECE2025-166623",
+      "summary": "Co-authored with N. Aitmukhanbetov, Y.R. Song, and M. Shah. Contributed to computational modeling and data validation."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
+  "presentations": [],
+  "teaching": [],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
+      "name": "Distributed Vision Transformer Training",
       "category": "portfolio",
-      "date": "",
+      "date": "2026-01-01",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "Parallelizing ViT-Base on Tiny ImageNet across HPC SLURM clusters using pipeline and data parallelism."
+    },
+    {
+      "name": "Privacy-Preserving Federated Learning for Medical Imaging",
+      "category": "portfolio",
+      "date": "2026-01-01",
+      "url": "",
+      "description": "Multi-hospital FL simulation for chest X-ray triage on NIH ChestX-ray14 with non-IID partitioning."
+    },
+    {
+      "name": "Population Genomics Pipeline",
+      "category": "portfolio",
+      "date": "2025-01-01",
+      "url": "",
+      "description": "Scalable HPC workflow for 200+ genomes incorporating PCA, ADMIXTURE, and clustering."
     }
   ]
 }
