@@ -54,13 +54,13 @@ redirect_from:
     <article class="focus-card focus-card--ink">
       <span class="card-index">01</span>
       <h3>Distributed ML</h3>
-      <p>Training Vision Transformers across SLURM-managed GPU nodes using data and pipeline parallelism, with careful profiling of throughput, memory, and communication.</p>
+      <p>Scaled Vision Transformer training across SLURM-managed GPU nodes using data and pipeline parallelism, with careful profiling of throughput, memory, and communication.</p>
       <div class="tag-row"><span>PyTorch DDP</span><span>SLURM</span><span>HPC</span></div>
     </article>
     <article class="focus-card">
       <span class="card-index">02</span>
       <h3>AI for biology</h3>
-      <p>Curating biomedical knowledge graphs and evaluating oncology foundation models to create stronger, less biased biological representations.</p>
+      <p>Engineering biomedical knowledge graphs and evaluating oncology foundation models to create stronger, less biased biological representations.</p>
       <div class="tag-row"><span>Foundation models</span><span>Knowledge graphs</span></div>
     </article>
     <article class="focus-card">
@@ -75,16 +75,16 @@ redirect_from:
 <section class="home-section home-section--tinted" aria-labelledby="work-heading">
   <div class="section-heading section-heading--split">
     <div>
-      <p class="eyebrow">Now & next</p>
-      <h2 id="work-heading">Current work</h2>
+      <p class="eyebrow">Experience</p>
+      <h2 id="work-heading">Recent work</h2>
     </div>
     <a class="text-link" href="/experience/">View all experience <span aria-hidden="true">→</span></a>
   </div>
   <div class="current-work">
     <article>
-      <div class="work-meta"><span>GenBio AI</span><time>2026—Now</time></div>
-      <h3>Data Engineering Intern</h3>
-      <p>Building Interactome-FM training graphs with 132,498 nodes, 32.5M edges, and 56 biological relationship types.</p>
+      <div class="work-meta"><span>CBCRG</span><time>2025—Now</time></div>
+      <h3>Machine Learning Engineer</h3>
+      <p>Engineering reproducible Nextflow pipelines for TB-scale ENCODE data on HPC infrastructure.</p>
     </article>
     <article>
       <div class="work-meta"><span>Nexomic</span><time>2026—Now</time></div>
@@ -92,9 +92,9 @@ redirect_from:
       <p>Evaluate and distill oncology foundation models and contribute to DeepOmic Bench, which spans 12,627 unique patients.</p>
     </article>
     <article>
-      <div class="work-meta"><span>CBCRG</span><time>2025—Now</time></div>
-      <h3>Machine Learning Engineer</h3>
-      <p>Engineering reproducible Nextflow pipelines for TB-scale ENCODE data on HPC infrastructure.</p>
+      <div class="work-meta"><span>GenBio AI</span><time>May—Aug 2026</time></div>
+      <h3>Data Engineering Intern</h3>
+      <p>Built Interactome-FM training graphs with 132,498 nodes, 32.5M edges, and 56 biological relationship types.</p>
     </article>
   </div>
 </section>

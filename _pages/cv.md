@@ -30,11 +30,11 @@ New York University Abu Dhabi · Abu Dhabi, UAE · Sep 2021 – May 2025
 Work Experience
 ======
 
-**Data Engineering Intern (Part-time)** · GenBio AI<br>
-Masdar City, UAE · May 2026 – Present
-* Curate and harmonize biomedical interaction datasets for **Interactome-FM**, standardizing knowledge-graph metadata, edge schemas, file inventories, cloud paths, and data provenance.
-* Map genes, drugs, pathways, regulatory interactions, protein complexes, and ligand–receptor relationships across heterogeneous sources for foundation-model training.
-* Build and validate enriched graph artifacts with **132,498 nodes, 32.5M edges, and 56 edge types**; manage GCS uploads, GitLab documentation, and reproducible integration workflows.
+**Machine Learning Engineer** · Computational Biology & Cancer Regulatory Genomics (CBCRG)<br>
+Masdar City, UAE · Aug 2025 – Present
+* Develop reproducible Nextflow pipelines on HPC for TB-scale ENCODE regulatory-genomics data, automating ingestion, QC, metadata harmonization, and experiment–control matching.
+* Build data-lineage and validation checks that make runs traceable across datasets, configuration changes, and downstream model inputs.
+* Extract high-dimensional signal features and flag data-quality anomalies before model training and downstream analysis.
 
 **Machine Learning R&D Intern (Full-time)** · Nexomic<br>
 Dublin, Ireland · Remote · May 2026 – Present
@@ -42,11 +42,11 @@ Dublin, Ireland · Remote · May 2026 – Present
 * Contribute to DeepOmic Bench, which compares up to 56 models per dataset with clinical baselines on frozen splits across 4 tasks, 11 datasets, and 12,627 unique patients.
 * Co-author five ESMO AI & Digital Oncology Congress posters and two accepted San Antonio Breast Cancer Symposium posters on model transfer, biomarker prediction, and benchmarking.
 
-**Machine Learning Engineer** · Computational Biology & Cancer Regulatory Genomics (CBCRG)<br>
-Masdar City, UAE · Aug 2025 – Present
-* Develop reproducible Nextflow pipelines on HPC for TB-scale ENCODE regulatory-genomics data, automating ingestion, QC, metadata harmonization, and experiment–control matching.
-* Build data-lineage and validation checks that make runs traceable across datasets, configuration changes, and downstream model inputs.
-* Extract high-dimensional signal features and flag data-quality anomalies before model training and downstream analysis.
+**Data Engineering Intern (Part-time)** · GenBio AI<br>
+Masdar City, UAE · May 2026 – Aug 2026
+* Curated and harmonized biomedical interaction datasets for **Interactome-FM**, standardizing knowledge-graph metadata, edge schemas, file inventories, cloud paths, and data provenance.
+* Integrated biological reasoning signals by mapping genes, drugs, pathways, regulatory interactions, protein complexes, and ligand–receptor relationships across heterogeneous sources.
+* Built and validated enriched graph artifacts with **132,498 nodes, 32.5M edges, and 56 edge types**; managed GCS uploads, GitLab documentation, and reproducible integration workflows.
 
 **Bioinformatician & Genomics Research Fellow** · Amandine's Lab<br>
 Abu Dhabi, UAE · May 2025 – Aug 2025
@@ -68,11 +68,11 @@ Research & Engineering Projects
 **[Oncology Foundation Model Evaluation](/portfolio/oncology-foundation-model/)** · Nexomic · 2026 – Present
 * Report DeepOmic’s 25-shot tumour classification result in ESMO AI poster 9P. The model achieved **0.831 macro-F1 vs. 0.784 for Stackix**, a gain of **4.7 percentage points**.
 
-**[Distributed Vision Transformer Training](/portfolio/distributed-vit-training/)** · PyTorch DDP, SLURM, Pipeline Parallelism, Tiny ImageNet · 2026 – Present
-* Implement ViT-Base training across SLURM-managed GPU nodes using pipeline and data parallelism to study throughput, memory pressure, and communication cost.
-* Profile scaling efficiency, gradient-synchronization latency, GPU utilization, and inter-stage bottlenecks across batch sizes and node counts; supervised by Qirong Ho at MBZUAI.
+**[Distributed Vision Transformer Training](/portfolio/distributed-vit-training/)** · PyTorch DDP, SLURM, Pipeline Parallelism, Tiny ImageNet · 2026
+* Implemented ViT-Base training across SLURM-managed GPU nodes using pipeline and data parallelism to study throughput, memory pressure, and communication cost.
+* Profiled scaling efficiency, gradient-synchronization latency, GPU utilization, and inter-stage bottlenecks across batch sizes and node counts; supervised by Qirong Ho at MBZUAI.
 
-**[Privacy-Preserving Federated Learning for Medical Imaging](/portfolio/federated-learning-medical-imaging/)** · PyTorch, FedAvg, FedProx, NIH ChestX-ray14 · 2026 – Present
+**[Privacy-Preserving Federated Learning for Medical Imaging](/portfolio/federated-learning-medical-imaging/)** · PyTorch, FedAvg, FedProx, NIH ChestX-ray14 · 2026
 * Designed a multi-hospital simulation for chest X-ray triage on **NIH ChestX-ray14 (112,120 images)** with non-IID partitioning to model hospital-level distribution shifts.
 * Implemented and benchmarked FedAvg, FedProx, and q-FedAvg, evaluating accuracy, worst-site performance, inter-site variance, and robustness under heterogeneous data.
 

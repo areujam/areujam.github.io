@@ -16,15 +16,16 @@
   },
   "work": [
     {
-      "company": "GenBio AI",
-      "position": "Data Engineering Intern (Part-time)",
-      "startDate": "2026-05-01",
+      "company": "Computational Biology & Cancer Regulatory Genomics (CBCRG)",
+      "position": "Machine Learning Engineer",
+      "website": "https://khanlab.bio/",
+      "startDate": "2025-08-01",
       "endDate": "",
       "summary": "Masdar City, UAE",
       "highlights": [
-        "Curate and harmonize biomedical interaction datasets for Interactome-FM, standardizing knowledge-graph metadata, schemas, cloud paths, and provenance.",
-        "Map genes, drugs, pathways, regulatory interactions, protein complexes, and ligand–receptor relationships across heterogeneous sources.",
-        "Build and validate graph artifacts with 132,498 nodes, 32.5M edges, and 56 edge types using reproducible GCS and Kubeflow workflows."
+        "Develop reproducible Nextflow pipelines on HPC for TB-scale ENCODE regulatory-genomics data.",
+        "Build data-lineage and validation checks across datasets, configurations, and downstream model inputs.",
+        "Extract high-dimensional signal features and flag sequencing-track anomalies before model training."
       ]
     },
     {
@@ -40,16 +41,15 @@
       ]
     },
     {
-      "company": "Computational Biology & Cancer Regulatory Genomics (CBCRG)",
-      "position": "Machine Learning Engineer",
-      "website": "https://khanlab.bio/",
-      "startDate": "2025-08-01",
-      "endDate": "",
+      "company": "GenBio AI",
+      "position": "Data Engineering Intern (Part-time)",
+      "startDate": "2026-05-01",
+      "endDate": "2026-08-01",
       "summary": "Masdar City, UAE",
       "highlights": [
-        "Develop reproducible Nextflow pipelines on HPC for TB-scale ENCODE regulatory-genomics data.",
-        "Build data-lineage and validation checks across datasets, configurations, and downstream model inputs.",
-        "Extract high-dimensional signal features and flag sequencing-track anomalies before model training."
+        "Curated and harmonized biomedical interaction datasets for Interactome-FM, standardizing knowledge-graph metadata, schemas, cloud paths, and provenance.",
+        "Integrated biological reasoning signals by mapping genes, drugs, pathways, regulatory interactions, protein complexes, and ligand–receptor relationships across heterogeneous sources.",
+        "Built and validated graph artifacts with 132,498 nodes, 32.5M edges, and 56 edge types using reproducible GCS and Kubeflow workflows."
       ]
     },
     {
@@ -148,7 +148,7 @@
     {"organization": "Nazarbayev University Student Council", "position": "Head of Social Department", "startDate": "2020-09-01", "endDate": "2021-05-01"}
   ],
   "portfolio": [
-    {"name": "Interactome-FM Knowledge Graph Engineering", "date": "2026-10-01", "description": "Harmonizing biomedical interactions into a 32.5M-edge training graph."},
+    {"name": "Interactome-FM Knowledge Graph Engineering", "date": "2026-08-01", "description": "Harmonized biomedical interactions into a 32.5M-edge training graph."},
     {"name": "Distributed Vision Transformer Training", "date": "2026-09-01", "description": "Scaling ViT-Base training across SLURM-managed GPU nodes using pipeline and data parallelism."},
     {"name": "Multi-Omic Foundation Models for Oncology", "date": "2026-08-01", "description": "Evaluating transfer and distillation across 12,627 held-out patients."},
     {"name": "TB-Scale Regulatory Genomics Pipelines", "date": "2026-07-01", "description": "Reproducible Nextflow workflows for ENCODE data on HPC."},

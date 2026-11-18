@@ -6,7 +6,7 @@ date: 2026-06-01
 ---
 
 **Stack:** PyTorch, FedAvg, FedProx, q-FedAvg, NIH ChestX-ray14  
-**Status:** In progress (2026 – Present)
+**Status:** Completed (2026)
 
 Designed a multi-hospital federated learning simulation for chest X-ray triage using the NIH ChestX-ray14 dataset (112,120 images). Non-IID partitioning simulates realistic hospital-level data distribution shifts.
 
