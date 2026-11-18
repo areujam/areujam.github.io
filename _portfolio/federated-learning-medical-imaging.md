@@ -2,6 +2,7 @@
 title: "Privacy-Preserving Federated Learning for Medical Imaging"
 excerpt: "Multi-hospital FL simulation for chest X-ray triage on NIH ChestX-ray14 with non-IID partitioning and fairness evaluation."
 collection: portfolio
+date: 2026-06-01
 ---
 
 **Stack:** PyTorch, FedAvg, FedProx, q-FedAvg, NIH ChestX-ray14  
@@ -11,7 +12,7 @@ Designed a multi-hospital federated learning simulation for chest X-ray triage u
 
 **Key work:**
 - Implemented and benchmarked FedAvg, FedProx, and q-FedAvg algorithms
-- Evaluated per-hospital accuracy, worst-hospital variance, and inter-hospital fairness gaps — analogous to distributed system fairness metrics
+- Evaluated accuracy, worst-site performance, inter-site variance, and robustness under heterogeneous data
 - Designed the data partitioning pipeline to reflect clinical heterogeneity across institutions
 
-**Research connection:** Federated learning for medical imaging directly addresses AI safety concerns around data privacy and equitable model performance across underrepresented institutions.
+**Research connection:** Federated learning for medical imaging addresses two linked challenges: protecting patient data and maintaining reliable performance across institutions with different patient populations.

@@ -9,28 +9,28 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Aruzhan / Ms in Machine Learning"
+title                    : "Aruzhan Zhamalbek"
 title_separator          : "-"
 name                     : &name "Aruzhan Zhamalbek"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Machine learning researcher and engineer working across distributed ML systems, computational biology, and scientific computing."
 url                      : https://areujam.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "areujam/areujam.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Aruzhan Zhamalbek" # Your name, this is used in the sidebar and as the author of posts
   pronouns         : she/her # example: "she/her"  
-  bio              : "Machine Learning Enthusiast. Computational Biologist. Bioengineer. "
+  bio              : "ML researcher and engineer building distributed systems and scientific data pipelines."
   location         : "Abu Dhabi, UAE" # Location, this is used in the sidebar
   employer         : "Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)" # Employer, this is used in the sidebar
   job_title        : "Master's Student in Machine Learning" # Job title, this is
-  uri              : # URL
+  uri              : "https://areujam.github.io"
   email            : "aruzhan.zhamalbek@mbzuai.ac.ae" 
 
   # Academic websites
@@ -39,7 +39,7 @@ author:
   googlescholar    : # URL
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/my-orcid?orcid=0009-0004-1683-6192"
+  orcid            : "https://orcid.org/0009-0004-1683-6192"
   semantic         : # URL
   pubmed           : # URL
   researchgate     : # URL
@@ -49,8 +49,8 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/areujam"
-  kaggle           : "https://www.kaggle.com/aruzhanzhamalbek" 
+  github           : "areujam"
+  kaggle           : "aruzhanzhamalbek"
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
@@ -64,13 +64,13 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "aruzhanzhamalbek"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
   soundcloud       : # Username
   steam            : # Username
-  telegram         : "@areujam"
+  telegram         : "https://t.me/areujam"
   tumblr           : # Username
   twitter          : # Username for X / Twitter
   vine             : # Username
@@ -90,7 +90,7 @@ publication_category:
     title: 'Numerical Study of Micropillar Based Glaucoma Drainage Device - IMECE 2025'
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
+teaser                   : "profile.jpg"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -141,14 +141,17 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "profile.jpg"
+og_description           : "Aruzhan Zhamalbek — machine learning researcher and engineer working across distributed systems, computational biology, and scientific computing."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Aruzhan Zhamalbek"
+  links:
+    - "https://github.com/areujam"
+    - "https://www.linkedin.com/in/aruzhanzhamalbek/"
+    - "https://orcid.org/0009-0004-1683-6192"
 
 
 # Analytics

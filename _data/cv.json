@@ -1,36 +1,44 @@
 {
   "basics": {
     "name": "Aruzhan Zhamalbek",
+    "label": "Machine Learning Researcher & Engineer",
     "email": "aruzhan.zhamalbek@mbzuai.ac.ae",
     "phone": "+971 56 539 5227",
     "website": "https://areujam.github.io",
-    "summary": "Machine Learning Master's student at MBZUAI. Building scalable distributed ML pipelines, HPC infrastructure, and reproducible training workflows.",
-    "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Abu Dhabi",
-      "countryCode": "AE",
-      "region": "UAE"
-    },
+    "summary": "Machine Learning master's student working across distributed ML systems, computational biology, numerical methods, and reproducible scientific computing.",
+    "location": {"city": "Abu Dhabi", "countryCode": "AE", "region": "UAE"},
     "profiles": [
-      {
-        "network": "GitHub",
-        "username": "areujam",
-        "url": "https://github.com/areujam"
-      },
-      {
-        "network": "ORCID",
-        "username": "0009-0004-1683-6192",
-        "url": "https://orcid.org/0009-0004-1683-6192"
-      },
-      {
-        "network": "Kaggle",
-        "username": "aruzhanzhamalbek",
-        "url": "https://www.kaggle.com/aruzhanzhamalbek"
-      }
+      {"network": "LinkedIn", "username": "aruzhanzhamalbek", "url": "https://www.linkedin.com/in/aruzhanzhamalbek/"},
+      {"network": "GitHub", "username": "areujam", "url": "https://github.com/areujam"},
+      {"network": "ORCID", "username": "0009-0004-1683-6192", "url": "https://orcid.org/0009-0004-1683-6192"},
+      {"network": "Kaggle", "username": "aruzhanzhamalbek", "url": "https://www.kaggle.com/aruzhanzhamalbek"}
     ]
   },
   "work": [
+    {
+      "company": "GenBio AI",
+      "position": "Data Engineering Intern (Part-time)",
+      "startDate": "2026-05-01",
+      "endDate": "",
+      "summary": "Masdar City, UAE",
+      "highlights": [
+        "Curate and harmonize biomedical interaction datasets for Interactome-FM, standardizing knowledge-graph metadata, schemas, cloud paths, and provenance.",
+        "Map genes, drugs, pathways, regulatory interactions, protein complexes, and ligand–receptor relationships across heterogeneous sources.",
+        "Build and validate graph artifacts with 132,498 nodes, 32.5M edges, and 56 edge types using reproducible GCS and Kubeflow workflows."
+      ]
+    },
+    {
+      "company": "Nexomic",
+      "position": "Machine Learning R&D Intern (Full-time)",
+      "startDate": "2026-05-01",
+      "endDate": "",
+      "summary": "Dublin, Ireland (Remote)",
+      "highlights": [
+        "Evaluate and distill multi-omic foundation models for cancer prognosis, using held-out patients to assess how much prognostic signal a 20-gene model retains.",
+        "Contribute to DeepOmic Bench, which compares up to 56 models per dataset with clinical baselines on frozen splits across 4 tasks, 11 datasets, and 12,627 unique patients.",
+        "Co-author five ESMO AI & Digital Oncology Congress posters and two accepted San Antonio Breast Cancer Symposium posters on model transfer, biomarker prediction, and benchmarking."
+      ]
+    },
     {
       "company": "Computational Biology & Cancer Regulatory Genomics (CBCRG)",
       "position": "Machine Learning Engineer",
@@ -39,45 +47,42 @@
       "endDate": "",
       "summary": "Masdar City, UAE",
       "highlights": [
-        "Engineered reproducible ML data pipelines on HPC infrastructure using Nextflow, processing TB-scale heterogeneous ENCODE datasets.",
-        "Built experiment–control pair matching system enabling data lineage, traceability, and reproducibility.",
-        "Performed high-dimensional signal extraction and anomaly detection on noisy large-scale datasets."
+        "Develop reproducible Nextflow pipelines on HPC for TB-scale ENCODE regulatory-genomics data.",
+        "Build data-lineage and validation checks across datasets, configurations, and downstream model inputs.",
+        "Extract high-dimensional signal features and flag sequencing-track anomalies before model training."
       ]
     },
     {
       "company": "Amandine's Lab",
       "position": "Bioinformatician and Genomics Research Fellow",
-      "website": "",
       "startDate": "2025-05-01",
       "endDate": "2025-08-01",
       "summary": "Abu Dhabi, UAE",
       "highlights": [
-        "Optimized end-to-end data processing pipelines (FastQC, Trimmomatic, BWA, GATK), increasing throughput by 10% across 200+ datasets.",
-        "Applied unsupervised learning (PCA, clustering, diversity metrics) to uncover latent structure in large datasets."
+        "Optimized FastQC, Trimmomatic, BWA, and GATK pipelines, improving throughput by 10% across 200+ datasets.",
+        "Applied PCA, clustering, and population-diversity metrics to identify latent genomic structure and adaptation signals."
       ]
     },
     {
       "company": "NYU Tandon School of Engineering",
       "position": "Bioengineering Intern",
-      "website": "",
       "startDate": "2024-06-01",
       "endDate": "2024-08-01",
       "summary": "New York, USA",
       "highlights": [
-        "Analyzed high-volume sequencing datasets using Python and R pipelines; delivered findings as one of the top 7 selected projects at the UGSRP Symposium.",
-        "Developed statistical signal-to-noise models to improve confidence in automated validation under noisy data conditions."
+        "Automated high-throughput sequencing QC and analysis with Python and R; selected as a top-seven UGSRP Symposium project.",
+        "Built statistical signal-to-noise analyses for CRISPR-edit validation."
       ]
     },
     {
       "company": "National Center of Biotechnology",
       "position": "Biomedical Engineering Intern",
-      "website": "",
       "startDate": "2023-06-01",
       "endDate": "2023-08-01",
       "summary": "Astana, Kazakhstan",
       "highlights": [
-        "Improved operational throughput by 25% through process automation.",
-        "Conducted exploratory data analysis and dashboarding for AI-driven diagnostic initiatives."
+        "Improved operational throughput by 25% through workflow automation.",
+        "Built exploratory analyses and dashboards for AI-assisted diagnostics initiatives."
       ]
     }
   ],
@@ -88,15 +93,8 @@
       "studyType": "Master of Science",
       "startDate": "2025-08-01",
       "endDate": "",
-      "gpa": "3.7",
-      "courses": [
-        "Parallel & Distributed ML",
-        "Big Data Processing",
-        "Deep Learning",
-        "Medical Imaging",
-        "Probabilistic & Statistical Inference",
-        "Mathematics for AI"
-      ]
+      "gpa": "3.7/4",
+      "courses": ["Mathematics for AI", "Probabilistic & Statistical Inference", "Parallel & Distributed ML", "Big Data Processing", "Deep Learning"]
     },
     {
       "institution": "New York University Abu Dhabi",
@@ -104,75 +102,57 @@
       "studyType": "Bachelor of Science",
       "startDate": "2021-09-01",
       "endDate": "2025-05-01",
-      "gpa": "3.5",
-      "courses": [
-        "Data Structures & Algorithms",
-        "Cyberwarfare",
-        "Numerical Methods",
-        "Probability & Statistics",
-        "ODEs & PDEs"
-      ]
+      "gpa": "3.5/4",
+      "courses": ["ODEs & PDEs", "Numerical Methods", "Probability & Statistics", "Data Structures & Algorithms"]
     }
   ],
   "skills": [
-    {
-      "name": "Languages",
-      "keywords": ["Python", "R", "Bash", "C++", "MATLAB"]
-    },
-    {
-      "name": "ML / Frameworks",
-      "keywords": ["PyTorch", "scikit-learn", "pandas", "NumPy", "Hugging Face Transformers"]
-    },
-    {
-      "name": "Distributed Systems",
-      "keywords": ["SLURM/HPC", "PyTorch DDP", "Pipeline Parallelism", "Data Parallelism", "Nextflow"]
-    },
-    {
-      "name": "MLOps & Tools",
-      "keywords": ["Docker", "Singularity", "Git", "version-controlled reproducible pipelines"]
-    }
+    {"name": "Languages", "keywords": ["Python", "R", "Bash", "C++", "MATLAB"]},
+    {"name": "ML & Data", "keywords": ["PyTorch", "scikit-learn", "pandas", "NumPy", "Hugging Face Transformers", "contrastive learning", "ablation studies"]},
+    {"name": "Data Engineering", "keywords": ["knowledge graphs", "data curation", "metadata harmonization", "Parquet", "Google Cloud Storage", "Kubeflow"]},
+    {"name": "Distributed Systems", "keywords": ["SLURM/HPC", "PyTorch DDP", "pipeline parallelism", "data parallelism", "Nextflow"]},
+    {"name": "MLOps & Tools", "keywords": ["Docker", "Singularity", "Git", "GitLab", "reproducible pipelines"]}
   ],
-  "languages": [],
   "interests": [
+    {"name": "Foundation Models"},
+    {"name": "Computational Applied Mathematics"},
+    {"name": "Numerical PDEs"},
+    {"name": "Mean-Field Games"},
     {"name": "Federated Learning"},
-    {"name": "Vision Transformers"},
     {"name": "Distributed Training"},
-    {"name": "Large-scale Data Pipelines"},
     {"name": "Computational Biology"}
   ],
-  "references": [],
   "publications": [
     {
       "name": "Numerical Study of Micropillar Based Glaucoma Drainage Devices",
       "publisher": "ASME IMECE 2025",
       "releaseDate": "2026-02-01",
       "website": "https://doi.org/10.1115/IMECE2025-166623",
-      "summary": "Co-authored with N. Aitmukhanbetov, Y.R. Song, and M. Shah. Contributed to computational modeling and data validation."
+      "summary": "Co-authored with N. Aitmukhanbetov, Y. R. Song, and M. Shah; contributed to computational modeling and data validation."
     }
   ],
-  "presentations": [],
-  "teaching": [],
+  "presentations": [
+    {"name": "A pan-cancer multiomic foundation model identifies copy-number instability as the dominant tissue-transferable biomarker linking TNBC to ovarian cancer and uterine carcinosarcoma", "event": "San Antonio Breast Cancer Symposium 2026", "poster": "2118", "status": "accepted"},
+    {"name": "Systematic multiomic ablation identifies copy-number alteration as the dominant portable and response associated biomarker of TNBC biology", "event": "San Antonio Breast Cancer Symposium 2026", "poster": "2729", "status": "accepted"},
+    {"name": "A tumor agnostic multi-omic foundation model for zero-shot generalisation, low-label transfer and clinically relevant prediction", "event": "ESMO AI & Digital Oncology Congress 2026", "poster": "9P"},
+    {"name": "Zero-shot survival prediction in tumour histologies unseen during multi-omic foundation-model pretraining", "event": "ESMO AI & Digital Oncology Congress 2026", "poster": "10P"},
+    {"name": "Transcriptome-only DeepOmic preserves clinically relevant survival prediction without comprehensive multi-omic profiling", "event": "ESMO AI & Digital Oncology Congress 2026", "poster": "11P"},
+    {"name": "A tumor-agnostic multi-omic foundation model enriches for immunotherapy responders within PD-L1-low tumours", "event": "ESMO AI & Digital Oncology Congress 2026", "poster": "12P"},
+    {"name": "Matched-cohort comparison of multi-omic representation learning methods under a leakage-free held-out-patient protocol", "event": "ESMO AI & Digital Oncology Congress 2026", "poster": "13P"},
+    {"name": "From multi-omic foundation models to 20 genes: preserving pan-cancer prognostic signal through distillation", "event": "AACR Annual Meeting 2027", "role": "designated presenting author", "status": "under review"}
+  ],
+  "leadership": [
+    {"organization": "MBZUAI Student Life", "position": "Undergraduate Residential Life Assistant", "startDate": "2026-05-01", "endDate": ""},
+    {"organization": "NYUAD Student Government", "position": "Engineering Representative", "startDate": "2024-08-01", "endDate": "2025-08-01"},
+    {"organization": "NYU Abu Dhabi Career Development Center", "position": "Global Career Peer", "startDate": "2025-01-01", "endDate": "2025-05-01"},
+    {"organization": "Nazarbayev University Student Council", "position": "Head of Social Department", "startDate": "2020-09-01", "endDate": "2021-05-01"}
+  ],
   "portfolio": [
-    {
-      "name": "Distributed Vision Transformer Training",
-      "category": "portfolio",
-      "date": "2026-01-01",
-      "url": "",
-      "description": "Parallelizing ViT-Base on Tiny ImageNet across HPC SLURM clusters using pipeline and data parallelism."
-    },
-    {
-      "name": "Privacy-Preserving Federated Learning for Medical Imaging",
-      "category": "portfolio",
-      "date": "2026-01-01",
-      "url": "",
-      "description": "Multi-hospital FL simulation for chest X-ray triage on NIH ChestX-ray14 with non-IID partitioning."
-    },
-    {
-      "name": "Population Genomics Pipeline",
-      "category": "portfolio",
-      "date": "2025-01-01",
-      "url": "",
-      "description": "Scalable HPC workflow for 200+ genomes incorporating PCA, ADMIXTURE, and clustering."
-    }
+    {"name": "Interactome-FM Knowledge Graph Engineering", "date": "2026-10-01", "description": "Harmonizing biomedical interactions into a 32.5M-edge training graph."},
+    {"name": "Distributed Vision Transformer Training", "date": "2026-09-01", "description": "Scaling ViT-Base training across SLURM-managed GPU nodes using pipeline and data parallelism."},
+    {"name": "Multi-Omic Foundation Models for Oncology", "date": "2026-08-01", "description": "Evaluating transfer and distillation across 12,627 held-out patients."},
+    {"name": "TB-Scale Regulatory Genomics Pipelines", "date": "2026-07-01", "description": "Reproducible Nextflow workflows for ENCODE data on HPC."},
+    {"name": "Privacy-Preserving Federated Learning for Medical Imaging", "date": "2026-06-01", "description": "Multi-hospital FL simulation using NIH ChestX-ray14 with non-IID partitioning."},
+    {"name": "Population Genomics Pipeline", "date": "2025-08-01", "description": "Scalable HPC workflow for 200+ genomic datasets."}
   ]
 }

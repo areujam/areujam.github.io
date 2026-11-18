@@ -2,16 +2,17 @@
 title: "Distributed Vision Transformer Training"
 excerpt: "Parallelizing ViT-Base training on Tiny ImageNet across HPC SLURM clusters using pipeline and data parallelism."
 collection: portfolio
+date: 2026-09-01
 ---
 
 **Stack:** PyTorch DDP, SLURM, Pipeline Parallelism, Tiny ImageNet  
 **Status:** In progress (2026 – Present) · Supervisor: Qirong Ho, MBZUAI
 
-Parallelizing ViT-Base training on Tiny ImageNet across an HPC SLURM cluster using a combination of pipeline parallelism and data parallelism, targeting distributed inference and throughput optimization at scale.
+Implementing ViT-Base training on Tiny ImageNet across SLURM-managed GPU nodes using a combination of pipeline and data parallelism. The project studies how throughput, memory pressure, and communication cost change across batch sizes and node counts.
 
 **Key work:**
-- Benchmarking communication overhead and gradient synchronization latency across multiple GPU nodes
-- Measuring scaling efficiency (weak and strong scaling) as node count increases
-- Targeting production-level distributed inference patterns
+- Profiling gradient-synchronization latency, GPU utilization, and inter-stage bottlenecks
+- Measuring weak and strong scaling efficiency as node counts and batch sizes change
+- Comparing communication cost and memory pressure under different parallelization strategies
 
-This project is part of the Parallel & Distributed ML coursework at MBZUAI, with supervisor approval from Prof. Qirong Ho.
+This project is supervised by Qirong Ho at MBZUAI as part of advanced work in parallel and distributed machine learning.
