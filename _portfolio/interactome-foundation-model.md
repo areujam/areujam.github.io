@@ -3,6 +3,8 @@ title: "Interactome-FM Knowledge Graph Engineering"
 excerpt: "Harmonizing biomedical interaction data into a 32.5M-edge training graph for biological foundation models."
 collection: portfolio
 date: 2026-08-01
+area: "AI for biology"
+stack: ["Knowledge graphs", "Kubeflow", "32.5M edges"]
 ---
 
 **Stack:** Python, Kubeflow, Google Cloud Storage, Parquet, knowledge graphs  

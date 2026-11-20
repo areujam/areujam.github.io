@@ -1,0 +1,78 @@
+---
+layout: wide
+title: "Research Notes"
+permalink: /notes/
+excerpt: "Weekly reading notes, research build logs, and occasional video walkthroughs."
+author_profile: false
+---
+
+<section class="wide-hero wide-hero--notes">
+  <div>
+    <p class="eyebrow">Open notebook</p>
+    <h1>What I’m reading, building, and <span>thinking through.</span></h1>
+    <p class="wide-hero__lead">A weekly practice in public: ten papers worth keeping, concise technical build logs, and occasional video walkthroughs when a diagram says more than a paragraph.</p>
+  </div>
+  <div class="notes-orbit" aria-hidden="true">
+    <span>READ</span><span>BUILD</span><span>EXPLAIN</span>
+    <strong>10</strong>
+    <small>papers / week</small>
+  </div>
+</section>
+
+<section class="note-series" aria-labelledby="series-heading">
+  <div class="section-heading">
+    <p class="eyebrow">Recurring formats</p>
+    <h2 id="series-heading">A system for showing the work.</h2>
+  </div>
+  <div class="note-series__grid">
+    <article>
+      <span class="card-index">01</span>
+      <h3>10 Papers of My Week</h3>
+      <p>Ten useful papers, one sentence on why each mattered, and a deeper note on the idea I’ll carry into my own work.</p>
+      <span class="series-frequency">Weekly reading list</span>
+    </article>
+    <article>
+      <span class="card-index">02</span>
+      <h3>Build Notes</h3>
+      <p>Short technical records from distributed training, genomics pipelines, and the experiments that did—or did not—work.</p>
+      <span class="series-frequency">Research in progress</span>
+    </article>
+    <article>
+      <span class="card-index">03</span>
+      <h3>Research Vlogs</h3>
+      <p>Visual walkthroughs of papers, posters, and engineering decisions, designed to make complex systems easier to see.</p>
+      <span class="series-frequency">Occasional video</span>
+    </article>
+  </div>
+</section>
+
+<section class="notes-feed" aria-labelledby="notes-heading">
+  <div class="section-heading section-heading--split">
+    <div>
+      <p class="eyebrow">Latest entries</p>
+      <h2 id="notes-heading">From the notebook</h2>
+    </div>
+  </div>
+  <div class="notes-feed__list">
+    {% assign research_notes = site.posts | where: "research_note", true %}
+    {% for post in research_notes %}
+      <a class="note-row" href="{{ post.url }}">
+        <div>
+          <span class="note-row__series">{{ post.series | default: "Research note" }}</span>
+          <h3>{{ post.title }}</h3>
+          <p>{{ post.excerpt | strip_html }}</p>
+        </div>
+        <div class="note-row__date">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
+          <span aria-hidden="true">↗</span>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="notes-invitation">
+  <p class="eyebrow">The commitment</p>
+  <h2>Publish before it feels perfectly polished.</h2>
+  <p>The point of this space is consistency: capture what changed my mind, explain what I learned, and leave a trail I can return to.</p>
+</section>

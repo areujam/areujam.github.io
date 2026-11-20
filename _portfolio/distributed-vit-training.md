@@ -3,6 +3,8 @@ title: "Distributed Vision Transformer Training"
 excerpt: "Parallelizing ViT-Base training on Tiny ImageNet across HPC SLURM clusters using pipeline and data parallelism."
 collection: portfolio
 date: 2026-09-01
+area: "Distributed ML"
+stack: ["PyTorch DDP", "SLURM", "Vision Transformers"]
 ---
 
 **Stack:** PyTorch DDP, SLURM, Pipeline Parallelism, Tiny ImageNet  

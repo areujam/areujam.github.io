@@ -3,6 +3,8 @@ title: "Population Genomics Pipeline"
 excerpt: "Scalable HPC workflow for 200+ genomes incorporating PCA, ADMIXTURE, and clustering to study domestication and adaptation signals."
 collection: portfolio
 date: 2025-08-01
+area: "Computational genomics"
+stack: ["GATK", "HPC", "Population genetics"]
 ---
 
 **Stack:** FastQC, Trimmomatic, BWA, GATK, HPC (SLURM), R  

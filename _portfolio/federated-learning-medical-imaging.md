@@ -3,6 +3,8 @@ title: "Privacy-Preserving Federated Learning for Medical Imaging"
 excerpt: "Multi-hospital FL simulation for chest X-ray triage on NIH ChestX-ray14 with non-IID partitioning and fairness evaluation."
 collection: portfolio
 date: 2026-06-01
+area: "Medical AI"
+stack: ["Federated learning", "PyTorch", "ChestX-ray14"]
 ---
 
 **Stack:** PyTorch, FedAvg, FedProx, q-FedAvg, NIH ChestX-ray14  

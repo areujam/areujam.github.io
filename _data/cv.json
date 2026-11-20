@@ -132,6 +132,7 @@
     }
   ],
   "presentations": [
+    {"name": "Eight submitted abstracts", "event": "ASCO Gastrointestinal Cancers Symposium", "status": "under review", "count": 8},
     {"name": "A pan-cancer multiomic foundation model identifies copy-number instability as the dominant tissue-transferable biomarker linking TNBC to ovarian cancer and uterine carcinosarcoma", "event": "San Antonio Breast Cancer Symposium 2026", "poster": "2118", "status": "accepted"},
     {"name": "Systematic multiomic ablation identifies copy-number alteration as the dominant portable and response associated biomarker of TNBC biology", "event": "San Antonio Breast Cancer Symposium 2026", "poster": "2729", "status": "accepted"},
     {"name": "A tumor agnostic multi-omic foundation model for zero-shot generalisation, low-label transfer and clinically relevant prediction", "event": "ESMO AI & Digital Oncology Congress 2026", "poster": "9P"},

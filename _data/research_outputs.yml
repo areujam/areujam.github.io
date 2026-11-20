@@ -1,0 +1,116 @@
+- event: "ESMO AI & Digital Oncology Congress 2026"
+  event_short: "ESMO AI"
+  date: "16–18 November 2026"
+  location: "Berlin, Germany"
+  identifier: "Poster 9P"
+  title: >-
+    A tumor agnostic multi-omic foundation model for zero-shot generalisation,
+    low-label transfer and clinically relevant prediction
+  authors: "Al-Shamsi H, Zhamalbek A, Vlachavas E, Ghosheh M, Ghosheh G"
+  status: "Presented"
+  status_key: "presented"
+  stream: "esmo"
+
+- event: "ESMO AI & Digital Oncology Congress 2026"
+  event_short: "ESMO AI"
+  date: "16–18 November 2026"
+  location: "Berlin, Germany"
+  identifier: "Poster 10P"
+  title: >-
+    Zero-shot survival prediction in tumour histologies unseen during
+    multi-omic foundation-model pretraining
+  authors: "Hussain M, Zhamalbek A, Vlachavas E, Al-Shamsi H, Ghosheh G, Ghosheh M"
+  status: "Presented"
+  status_key: "presented"
+  stream: "esmo"
+
+- event: "ESMO AI & Digital Oncology Congress 2026"
+  event_short: "ESMO AI"
+  date: "16–18 November 2026"
+  location: "Berlin, Germany"
+  identifier: "Poster 11P"
+  title: >-
+    Transcriptome-only DeepOmic preserves clinically relevant survival
+    prediction without comprehensive multi-omic profiling
+  authors: "Alabyad A, Zhamalbek A, Ghosheh M, Al-Shamsi H, Ghosheh G"
+  status: "Presented"
+  status_key: "presented"
+  stream: "esmo"
+
+- event: "ESMO AI & Digital Oncology Congress 2026"
+  event_short: "ESMO AI"
+  date: "16–18 November 2026"
+  location: "Berlin, Germany"
+  identifier: "Poster 12P"
+  title: >-
+    A tumor-agnostic multi-omic foundation model enriches for immunotherapy
+    responders within PD-L1-low tumours
+  authors: "Al-Shamsi H, Zhamalbek A, Vlachavas E, Ghosheh M, Ghosheh G"
+  status: "Presented"
+  status_key: "presented"
+  stream: "esmo"
+
+- event: "ESMO AI & Digital Oncology Congress 2026"
+  event_short: "ESMO AI"
+  date: "16–18 November 2026"
+  location: "Berlin, Germany"
+  identifier: "Poster 13P"
+  title: >-
+    Matched-cohort comparison of multi-omic representation learning methods
+    under a leakage-free held-out-patient protocol
+  authors: "Hussain M, Zhamalbek A, Vlachavas E, Ghosheh M, Al-Shamsi H, Ghosheh G"
+  status: "Presented"
+  status_key: "presented"
+  stream: "esmo"
+
+- event: "San Antonio Breast Cancer Symposium 2026"
+  event_short: "SABCS"
+  date: "December 2026"
+  location: "San Antonio, Texas"
+  identifier: "Poster #2118"
+  title: >-
+    A pan-cancer multiomic foundation model identifies copy-number instability
+    as the dominant tissue-transferable biomarker linking TNBC to ovarian
+    cancer and uterine carcinosarcoma
+  authors: "Ghosheh A, Zhamalbek A, Ghosheh M, Ghosheh G"
+  status: "Accepted"
+  status_key: "accepted"
+  stream: "sabcs"
+
+- event: "San Antonio Breast Cancer Symposium 2026"
+  event_short: "SABCS"
+  date: "December 2026"
+  location: "San Antonio, Texas"
+  identifier: "Poster #2729"
+  title: >-
+    Systematic multiomic ablation identifies copy-number alteration as the
+    dominant portable and response associated biomarker of TNBC biology
+  authors: "Ghosheh A, Zhamalbek A, Ghosheh M, Ghosheh G"
+  status: "Accepted"
+  status_key: "accepted"
+  stream: "sabcs"
+
+- event: "ASCO Gastrointestinal Cancers Symposium"
+  event_short: "ASCO GI"
+  date: "Decision pending"
+  location: "Eight submissions"
+  identifier: "8 abstracts"
+  title: "Eight ASCO GI abstracts currently in peer review"
+  authors: "Individual titles and citations will be added after review decisions."
+  status: "Under review"
+  status_key: "review"
+  stream: "asco"
+  count: 8
+
+- event: "AACR Annual Meeting 2027"
+  event_short: "AACR"
+  date: "2–7 April 2027"
+  location: "Orlando, Florida"
+  identifier: "Submitted abstract"
+  title: >-
+    From multi-omic foundation models to 20 genes: preserving pan-cancer
+    prognostic signal through distillation
+  authors: "Zhamalbek A (designated presenting author), et al."
+  status: "Under review"
+  status_key: "review"
+  stream: "aacr"

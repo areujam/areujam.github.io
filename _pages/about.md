@@ -16,7 +16,7 @@ redirect_from:
     <p class="home-hero__lead">I’m Aruzhan Zhamalbek, an M.Sc. student in Machine Learning at MBZUAI and a bioengineer by training. My work connects distributed training, foundation-model data, and reproducible scientific computing.</p>
     <div class="home-actions">
       <a class="portfolio-button portfolio-button--primary" href="/portfolio/">Explore my research <span aria-hidden="true">↗</span></a>
-      <a class="portfolio-button" href="mailto:aruzhan.zhamalbek@mbzuai.ac.ae">Start a conversation</a>
+      <a class="portfolio-button" href="/posters/">Browse posters</a>
     </div>
     <ul class="home-links" aria-label="Professional profiles">
       <li><a href="https://github.com/areujam">GitHub</a></li>
@@ -42,6 +42,39 @@ redirect_from:
   <div><strong>TB-scale</strong><span>genomics pipelines</span></div>
   <div><strong>112K+</strong><span>medical images in FL research</span></div>
   <div><strong>200+</strong><span>genomic datasets processed</span></div>
+</section>
+
+<section class="home-section home-outputs" aria-labelledby="output-heading">
+  <div class="section-heading section-heading--split">
+    <div>
+      <p class="eyebrow">Research, in public</p>
+      <h2 id="output-heading">A conference pipeline you can actually explore.</h2>
+    </div>
+    <a class="text-link" href="/posters/">All posters & abstracts <span aria-hidden="true">→</span></a>
+  </div>
+  <div class="home-output-grid">
+    <a class="home-output-card home-output-card--esmo" href="/posters/">
+      <span class="home-output-card__status">Presented · Berlin</span>
+      <strong>5</strong>
+      <h3>ESMO AI posters</h3>
+      <p>Multi-omic representation learning, zero-shot transfer, survival prediction, and immunotherapy response.</p>
+      <span class="home-output-card__arrow" aria-hidden="true">↗</span>
+    </a>
+    <a class="home-output-card home-output-card--sabcs" href="/posters/">
+      <span class="home-output-card__status">Accepted · December 2026</span>
+      <strong>2</strong>
+      <h3>SABCS posters</h3>
+      <p>Cross-cancer transfer and multi-omic ablation in triple-negative breast cancer biology.</p>
+      <span class="home-output-card__arrow" aria-hidden="true">↗</span>
+    </a>
+    <a class="home-output-card home-output-card--review" href="/posters/">
+      <span class="home-output-card__status">Under review</span>
+      <strong>9</strong>
+      <h3>Submitted abstracts</h3>
+      <p>Eight ASCO GI submissions and one AACR submission, tracked without implying acceptance.</p>
+      <span class="home-output-card__arrow" aria-hidden="true">↗</span>
+    </a>
+  </div>
 </section>
 
 <section class="home-section" aria-labelledby="focus-heading">
@@ -127,6 +160,21 @@ redirect_from:
       <span class="project-arrow" aria-hidden="true">↗</span>
     </a>
   </div>
+</section>
+
+<section class="home-section home-notes" aria-labelledby="notes-home-heading">
+  <div class="home-notes__copy">
+    <p class="eyebrow">Open notebook</p>
+    <h2 id="notes-home-heading">Ten papers. One useful thread. Every week.</h2>
+    <p>I’m turning reading and research into a public practice: weekly paper lists, compact build notes, and occasional visual walkthroughs of the systems behind the work.</p>
+    <a class="portfolio-button portfolio-button--primary" href="/notes/">Read the first note <span aria-hidden="true">↗</span></a>
+  </div>
+  <a class="home-note-preview" href="/notes/starting-a-weekly-research-log/">
+    <span class="home-note-preview__issue">Field note · 001</span>
+    <strong>Starting a weekly research log</strong>
+    <p>Read carefully, explain clearly, and leave a useful trail of the research behind each week.</p>
+    <span class="home-note-preview__date">18 Nov 2026</span>
+  </a>
 </section>
 
 <section class="home-section education-band" aria-labelledby="education-heading">

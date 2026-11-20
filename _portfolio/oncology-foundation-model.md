@@ -3,6 +3,8 @@ title: "Multi-Omic Foundation Models for Oncology"
 excerpt: "Evaluating multi-omic oncology foundation models on held-out patients and benchmarking against clinical and model baselines."
 collection: portfolio
 date: 2026-08-01
+area: "Foundation models"
+stack: ["Multi-omics", "12,627 patients", "Held-out evaluation"]
 ---
 
 **Stack:** PyTorch, UCSC Xena, foundation models, ablation studies  

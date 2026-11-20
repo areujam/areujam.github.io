@@ -3,6 +3,8 @@ title: "TB-Scale Regulatory Genomics Pipelines"
 excerpt: "Reproducible Nextflow workflows for ENCODE ingestion, quality control, metadata harmonization, and model-ready features."
 collection: portfolio
 date: 2026-07-01
+area: "Scientific data systems"
+stack: ["Nextflow", "ENCODE", "TB-scale data"]
 ---
 
 **Stack:** Nextflow, ENCODE, HPC, Git, scientific Python  

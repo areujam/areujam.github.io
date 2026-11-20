@@ -15,4 +15,5 @@
 
 ## Submitted abstracts
 
+- Eight abstracts submitted to the **ASCO Gastrointestinal Cancers Symposium** *(under review; individual titles will be added after decisions)*.
 - **Zhamalbek A** (designated presenting author), et al. From multi-omic foundation models to 20 genes: preserving pan-cancer prognostic signal through distillation. AACR Annual Meeting 2027 · 2–7 April 2027 · Orlando, FL, USA *(under review)*.
