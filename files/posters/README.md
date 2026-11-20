@@ -12,4 +12,10 @@ Then add a `pdf` field to the corresponding entry in `_data/research_outputs.yml
 pdf: "/files/posters/esmo-ai-2026-9p.pdf"
 ```
 
-The public poster card will automatically replace “Poster upload pending” with an “Open poster PDF” link.
+For a visual card, also add a 16:9 preview image under `images/posters/` and set:
+
+```yaml
+thumbnail: "/images/posters/esmo-ai-2026-9p.jpg"
+```
+
+The public poster card will show the preview and an “Open poster PDF” link.

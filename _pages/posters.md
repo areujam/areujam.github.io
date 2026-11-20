@@ -10,7 +10,7 @@ author_profile: false
   <div>
     <p class="eyebrow">Research communication</p>
     <h1>Ideas in motion—<span>from poster hall to peer review.</span></h1>
-    <p class="wide-hero__lead">A living record of my conference work in multi-omic foundation models, oncology, and computational biology. Poster PDFs will become available here as they are uploaded.</p>
+    <p class="wide-hero__lead">A living record of my conference work in multi-omic foundation models, oncology, and computational biology. The five ESMO AI posters are now available to preview and open in full resolution.</p>
   </div>
   <div class="output-tally" aria-label="Research output summary">
     <div><strong>5</strong><span>ESMO AI posters</span></div>
@@ -21,7 +21,7 @@ author_profile: false
 </section>
 
 <section class="output-explainer" aria-label="Status guide">
-  <p><strong>Presented</strong> work is ready for poster uploads.</p>
+  <p><strong>Presented</strong> work includes the full poster PDF.</p>
   <p><strong>Accepted</strong> work has a confirmed conference decision.</p>
   <p><strong>Under review</strong> is listed without implying acceptance.</p>
 </section>
@@ -42,12 +42,19 @@ author_profile: false
 
   <div class="outputs-grid" data-output-grid>
     {% for output in site.data.research_outputs %}
-      <article class="output-card output-card--{{ output.stream }}" data-output-status="{{ output.status_key }}">
-        <div class="output-card__visual" aria-hidden="true">
-          <span>{{ output.event_short }}</span>
-          <strong>{{ output.identifier }}</strong>
-          <i></i><i></i><i></i>
-        </div>
+      <article class="output-card output-card--{{ output.stream }}{% if output.thumbnail %} output-card--has-poster{% endif %}" data-output-status="{{ output.status_key }}">
+        {% if output.thumbnail %}
+          <a class="output-card__visual output-card__visual--poster" href="{{ output.pdf }}" aria-label="Open {{ output.identifier }} poster PDF">
+            <img src="{{ output.thumbnail }}" alt="" width="1400" height="788" loading="lazy">
+            <span class="output-card__preview-label">View full poster</span>
+          </a>
+        {% else %}
+          <div class="output-card__visual" aria-hidden="true">
+            <span>{{ output.event_short }}</span>
+            <strong>{{ output.identifier }}</strong>
+            <i></i><i></i><i></i>
+          </div>
+        {% endif %}
         <div class="output-card__body">
           <div class="output-card__topline">
             <span class="status-pill status-pill--{{ output.status_key }}">{{ output.status }}</span>
@@ -60,7 +67,7 @@ author_profile: false
             <span>{{ output.location }}</span>
           </div>
           {% if output.pdf %}
-            <a class="output-card__action" href="{{ output.pdf }}">Open poster PDF <span aria-hidden="true">↗</span></a>
+            <a class="output-card__action" href="{{ output.pdf }}">Open poster PDF</a>
           {% elsif output.status_key == "presented" %}
             <span class="output-card__pending">Poster upload pending</span>
           {% endif %}
@@ -72,8 +79,8 @@ author_profile: false
 
 <section class="poster-cta">
   <p class="eyebrow">Living archive</p>
-  <h2>Posters will live here—not disappear after the conference.</h2>
-  <p>Each ESMO AI card is ready to link to a full-resolution PDF. Accepted SABCS work will move into the presented collection after the meeting; pending submissions stay clearly labeled until decisions arrive.</p>
+  <h2>Posters live here—not disappear after the conference.</h2>
+  <p>Each ESMO AI card now opens a full-resolution PDF. Accepted SABCS work will move into the presented collection after the meeting; pending submissions stay clearly labeled until decisions arrive.</p>
 </section>
 
 <script>

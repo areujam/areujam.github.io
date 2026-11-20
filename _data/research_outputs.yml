@@ -10,6 +10,8 @@
   status: "Presented"
   status_key: "presented"
   stream: "esmo"
+  pdf: "/files/posters/esmo-ai-2026-9p.pdf"
+  thumbnail: "/images/posters/esmo-ai-2026-9p.jpg"
 
 - event: "ESMO AI & Digital Oncology Congress 2026"
   event_short: "ESMO AI"
@@ -23,6 +25,8 @@
   status: "Presented"
   status_key: "presented"
   stream: "esmo"
+  pdf: "/files/posters/esmo-ai-2026-10p.pdf"
+  thumbnail: "/images/posters/esmo-ai-2026-10p.jpg"
 
 - event: "ESMO AI & Digital Oncology Congress 2026"
   event_short: "ESMO AI"
@@ -36,6 +40,8 @@
   status: "Presented"
   status_key: "presented"
   stream: "esmo"
+  pdf: "/files/posters/esmo-ai-2026-11p.pdf"
+  thumbnail: "/images/posters/esmo-ai-2026-11p.jpg"
 
 - event: "ESMO AI & Digital Oncology Congress 2026"
   event_short: "ESMO AI"
@@ -49,6 +55,8 @@
   status: "Presented"
   status_key: "presented"
   stream: "esmo"
+  pdf: "/files/posters/esmo-ai-2026-12p.pdf"
+  thumbnail: "/images/posters/esmo-ai-2026-12p.jpg"
 
 - event: "ESMO AI & Digital Oncology Congress 2026"
   event_short: "ESMO AI"
@@ -62,6 +70,8 @@
   status: "Presented"
   status_key: "presented"
   stream: "esmo"
+  pdf: "/files/posters/esmo-ai-2026-13p.pdf"
+  thumbnail: "/images/posters/esmo-ai-2026-13p.jpg"
 
 - event: "San Antonio Breast Cancer Symposium 2026"
   event_short: "SABCS"
